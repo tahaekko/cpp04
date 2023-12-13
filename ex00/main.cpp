@@ -8,7 +8,7 @@
 void	WrongTest()
 {
 	WrongAnimal *anim = new WrongCat();
-	anim->getType();
+	std::cout << anim->getType() << std::endl;
 	anim->makeSound();
 	delete anim;
 }

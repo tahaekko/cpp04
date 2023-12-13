@@ -117,5 +117,9 @@ int main()
 	for (int i = size/2; i < size ; i++)
 		delete *(animal + i);
 
+	Dog basic;
+	{
+	Dog tmp = basic;
+	}
 	return 0;
 }
